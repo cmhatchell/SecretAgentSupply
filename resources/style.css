@@ -44,7 +44,7 @@ span {
 /* Main  */
 
 .main-title {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-image: url(images/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -52,15 +52,32 @@ span {
 }
 
 .headline {
-
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
 }
 
 h4 {
-
+  display: block;
 }
 
 h1 {
+  display: block;
+}
 
+.headline h1 {
+  font-size: 2em;
+  margin: 0.25em 0;
+  line-height: 1.2em;
+
+}
+
+h1,
+h4 {
+  font-weight: bold;
 }
 
 /* NAVIGATION */

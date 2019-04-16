@@ -1,0 +1,116 @@
+/* universal */
+
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.4rem;
+}
+
+div {
+  display: block;
+}
+
+span {
+  background-color: black;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* COMPANY HEADER */
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.company .container {
+  display: flex;
+  padding: 12px 0px 12px 0.5rem;
+  align-items: center;
+}
+/* Main  */
+
+.main-title {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.headline {
+
+}
+
+h4 {
+
+}
+
+h1 {
+
+}
+
+/* NAVIGATION */
+
+nav {
+background-color: firebrick;
+}
+
+li {
+
+}
+
+/* PRODUCTS */
+
+.products {
+
+}
+
+.product-image {
+
+}
+
+  .product-pen {
+
+  }
+
+  .product-watch {
+
+  }
+
+  .product-glasses {
+
+  }
+
+/* CONTACT */
+
+.contact {
+
+}
+
+.info {
+
+}
+
+.title {
+
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+}

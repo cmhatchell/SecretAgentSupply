@@ -8,7 +8,6 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
-  color: white;
   line-height: 1.4rem;
 }
 
@@ -16,8 +15,8 @@ div {
   display: block;
 }
 
-span {
-  background-color: black;
+img {
+  border-style: none;
 }
 .container {
   max-width: 960px;
@@ -83,36 +82,59 @@ h4 {
 /* NAVIGATION */
 
 nav {
-background-color: firebrick;
+  background-color: firebrick;
+  color: white;
 }
 
-li {
-
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0.75rem 0;
 }
 
-/* PRODUCTS */
+/* PRODUCTS & INFO */
 
-.products {
-
+.products,
+ .info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
 }
 
 .product-image {
-
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-  .product-pen {
+.product-image img {
+  max-width: 8em;
+}
+
+.product {
+  width: 30%
+}
+
+.product-watch {
 
   }
 
-  .product-watch {
+.product-glasses {
 
   }
 
-  .product-glasses {
-
-  }
-
-/* CONTACT */
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
 
 .contact {
 
